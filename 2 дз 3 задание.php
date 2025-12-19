@@ -11,4 +11,4 @@ function GetDaysInMonth($month) {
 
 $month = (int)readline("Введите порядковый номер месяца (1-12): ");
 
-echo getDaysInMonth($month) . "\n";
+echo GetDaysInMonth($month) . "\n";
