@@ -1,6 +1,6 @@
 <?php
 
-function NikitaReytov($a, $b, $c) {
+function Airat($a, $b, $c) {
     
     if ($a + $b <= $c || $a + $c <= $b || $b + $c <= $a) {
         return "Треугольник не существует.";
@@ -22,5 +22,5 @@ $c = (float)readline("Введите длину третьей стороны: "
 if ($a <= 0 || $b <= 0 || $c <= 0) {
     echo "Длины сторон должны быть положительными числами.\n";
 } else {
-    echo NikitaReytov($a, $b, $c) . "\n";
+    echo Airat($a, $b, $c) . "\n";
 }
